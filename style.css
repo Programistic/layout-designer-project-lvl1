@@ -1,0 +1,202 @@
+/*Подключение шрифтов*/
+
+@font-face {
+    font-family: 'Neucha';
+    src: local('Neucha'), url('../fonts/Neucha-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), url('../fonts/OpenSans-Regular.ttf');
+}
+
+
+/*Задание фона*/
+
+header::before {
+    content: ''; 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background: no-repeat url(../images/background.png);
+    opacity: 0.06; 
+}
+
+
+/*Позиционирование блоков*/
+
+.head-pos {
+    position: absolute;
+    padding: 100px 0 100px 0;
+    top: 1px;
+}
+
+.head-h-1-pos {
+    position: absolute;
+    top: 122px;
+    left: 165px;
+}
+
+.head-h-2-pos {
+    position: absolute;
+    top: 294px;
+    left: 165px;
+}
+
+.head-txt-1-pos {
+    position: absolute;
+    top: 605px;
+    left: 165px;
+}
+
+.head-txt-2-pos {
+    position: absolute;
+    top: 605px;
+    left: 735px;
+}
+
+.head-img-pos {
+    position: absolute;
+    top: 66px;
+    left: 435px;
+}
+
+.head-btn-pos {
+    position: absolute;
+    left: 735px;
+    top: 809px; 
+}
+
+.head-btn {
+    position: absolute;
+    text-align: center; 
+    display: inline-block;
+    border: none;
+    padding: 11px 24px;
+}
+
+
+/*Типы используемых шрифтов*/
+
+.font-neucha {
+    font-family: 'Neucha';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.font-opensans {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+/*Размеры шрифтов*/
+
+.fs-72 {
+    font-size: 72px;
+    line-height: 86.4px;
+}
+
+.fs-16 {
+    font-size: 16px;
+    line-height: 25.6px;
+}
+
+
+/*Цвет фона и шрифта*/
+
+.color-white {
+    color: #ffffff;
+}
+
+.color-primary {
+    color: #fe8a02;
+}
+
+.color-text {
+    color: #2a2626;
+}
+
+.bg-color-light {
+    background-color: #f5f4f0;
+}
+
+.bg-color-secondary {
+    background-color: #908d8b;
+}
+
+.bg-color-dark {
+    background-color: #b09a81;
+}
+
+.bg-color-primary {
+    background-color: #fe8a02;
+}
+
+.bg-color-primarydark {
+    background-color: #42413c;
+}
+
+
+/*Ширина блоков*/
+
+.w-1110 {
+    width: 1110px;
+}
+
+.w-1082 {
+    width: 1082px;
+}
+
+.w-635 {
+    width: 635px;
+}
+
+.w-540 {
+    width: 540px;
+}
+
+.w-149 {
+    width: 149px;
+}
+
+.w-101 {
+    width: 101px;
+}
+
+
+/*Высота блоков*/
+
+.h-1005 {
+    height: 1005px;
+}
+
+.h-504 {
+    height: 504.63;
+}
+
+.h-172 {
+    height: 172px;
+}
+
+.h-166 {
+    height: 166px;
+}
+
+.h-130 {
+    height: 130px;
+}
+
+.h-86 {
+    height: 86px;
+}
+
+.h-48 {
+    height: 48px;
+}
+
+.h-26 {
+    height: 26px;
+}

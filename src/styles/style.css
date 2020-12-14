@@ -8,6 +8,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
+/*Шрифт по умолчанию*/
+
+body {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #2a2626;
+}
+
+
+/*Дополнительный шрифт*/
+
+.f-neucha {
+    font-family: 'Neucha';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
 /*Задание фона*/
 
 header::before {
@@ -16,65 +37,209 @@ header::before {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;   
+    left: 0;
     background: no-repeat url(../images/background.png);
+    background-color: #e5e5e5;
     background-size: cover;
     opacity: 0.06;
 }
 
-
-/*Позиционирование блоков*/
-
 .container {
     position: relative;
     margin: 100px auto;
+    width: 1110px;
 }
 
-.h1-pos {
-    margin: 0 0;
+.header-btn {  
+    display: inline-block;
+    border: none;
+    line-height: 25.6px;
 }
 
-.head-txt-pos {
+.footer-input {
+    display: inline-block;
+    border: none;
+    line-height: 28.8px;
+}
+
+.footer-btn {
+    display: inline-block;
+    border: none;
+}
+
+
+/*флексы*/
+
+.d-fl {
     display: flex;
+}
+
+.jc-spbtw {
     justify-content: space-between;
+}
+
+.flwr-wr {
     flex-wrap: wrap;
+}
+
+.fldir-col {
+    flex-direction: column;
+}
+
+
+/*Позиционирование*/
+
+.top--55 {
+    top: -55px;
+}
+
+.right--270 {
+    right: -270px;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.t-center {
+    text-align: center;
+}
+
+
+/*Внешние отступы*/
+
+.m-0 {
+    margin: 0;
+}
+
+/*сверху*/
+.mt-225 {
     margin-top: 225px;
 }
 
-.head-img-pos {
-    position: absolute;
-    top: -55px;
-    right: -270px;  
-    height: 525px;
+.mt-203 {
+    margin-top: 203px;
 }
 
-.head-btn-pos {
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-55 {
+    margin-top: 55px;
+}
+
+.mt-43 {
+    margin-top: 43px;
+}
+
+.mt-38 {
     margin-top: 38px;
-    margin-left: 570px; 
 }
 
-.head-btn {  
-    display: inline-block;
-    border: none;
-    font-weight: 700;
-    padding: 11px 24px;   
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+/*справа*/
+.mr--270 {
+    margin-right: -270px;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+/*снизу*/
+.mb-55 {
+    margin-bottom: 55px;
+}
+
+.mb-36 {
+    margin-bottom: 36px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+/*слева*/
+.ml-570 {
+    margin-left: 570px;
+}
+
+.ml-125 {
+    margin-left: 125px;
+}
+
+.ml-95 {
+    margin-left: 95px;
+}
+
+.ml-52 {
+    margin-left: 52px;
+}
+
+.ml-16 {
+    margin-left: 16px;
+}
+
+.ml-0 {
+    margin-left: 0;
 }
 
 
-/*Типы используемых шрифтов*/
-
-.font-neucha {
-    font-family: 'Neucha';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.2em;
+/*Внутренние отступы*/
+/*сверху*/
+.pt-12 {
+    padding-top: 12px;
 }
 
-.font-opensans {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.6em;
+.pt-10 {
+    padding-top: 10px;
+}
+
+/*справа*/
+.pr-24 {
+    padding-right: 24px;
+}
+
+/*снизу*/
+.pb-12 {
+    padding-bottom: 12px;
+}
+
+/*слева*/
+.pl-24 {
+    padding-left: 24px;
+}
+
+.pl-16 {
+    padding-left: 16px;
 }
 
 
@@ -88,42 +253,68 @@ header::before {
     font-size: 60px;
 }
 
+.fs-34 {
+    font-size: 34px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-12 {
+    font-size: 12px;   
+}
+
 .fs-16 {
     font-size: 16px;   
 }
 
 
-/*Цвет фона и шрифта*/
+/*Толщина шрифта*/
 
-.color-white {
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+
+/*Цвет шрифта*/
+
+.c-white {
     color: #ffffff;
 }
 
-.color-primary {
+.c-primary {
     color: #fe8a02;
 }
 
-.color-text {
+.c-text {
     color: #2a2626;
 }
 
-.bg-color-light {
+
+/*Цвет фона*/
+
+.bg-c-light {
     background-color: #f5f4f0;
 }
 
-.bg-color-secondary {
+.bg-c-secondary {
     background-color: #908d8b;
 }
 
-.bg-color-dark {
+.bg-c-dark {
     background-color: #b09a81;
 }
 
-.bg-color-primary {
+.bg-c-primary {
     background-color: #fe8a02;
 }
 
-.bg-color-primarydark {
+.bg-c-primarydark {
     background-color: #42413c;
 }
 
@@ -138,7 +329,29 @@ header::before {
     width: 540px;
 }
 
+.w-394 {
+    width: 394px;
+}
+
 .w-149 {
     width: 149px;
 }
 
+.w-72 {
+    width: 72px;
+}
+
+
+/*Высота блоков*/
+
+.h-525 {
+    height: 525px;
+}
+
+.h-196 {
+    height: 196px;
+}
+
+.h-48 {
+    height: 48px;
+}

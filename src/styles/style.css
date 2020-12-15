@@ -19,7 +19,6 @@ body {
     color: #2a2626;
 }
 
-
 /*Дополнительный шрифт*/
 
 .f-neucha {
@@ -29,7 +28,13 @@ body {
     line-height: 1.2em;
 }
 
-/*Задание фона*/
+
+iframe {
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+
+/*Задание фона для header*/
 
 header::before {
     content: ''; 
@@ -43,6 +48,22 @@ header::before {
     background-size: cover;
     opacity: 0.06;
 }
+
+
+/*Изображение для кнопки в footer*/
+
+.footer-btn::before {
+    content: ''; 
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 14px;
+    left: 24px;
+    background-image: url(../images/send.svg);
+    background-position: center center;
+}
+
+/*Стили для отдельных элементов*/
 
 .container {
     position: relative;
@@ -127,6 +148,10 @@ header::before {
 
 .mt-100 {
     margin-top: 100px;
+}
+
+.mt-60 {
+    margin-top: 60px;
 }
 
 .mt-55 {
@@ -238,8 +263,8 @@ header::before {
     padding-left: 24px;
 }
 
-.pl-16 {
-    padding-left: 16px;
+.pl-15 {
+    padding-left: 15px;
 }
 
 
@@ -337,8 +362,8 @@ header::before {
     width: 149px;
 }
 
-.w-72 {
-    width: 72px;
+.w-70 {
+    width: 70px;
 }
 
 
@@ -352,6 +377,6 @@ header::before {
     height: 196px;
 }
 
-.h-48 {
-    height: 48px;
+.h-50 {
+    height: 50px;
 }

@@ -11,6 +11,7 @@
 /*Шрифт по умолчанию*/
 
 body {
+    margin: 0;
     font-family: 'Open Sans';
     font-style: normal;
     font-size: 16px;
@@ -28,6 +29,7 @@ body {
     line-height: 1.2em;
 }
 
+/*Фрейм для видео*/
 
 iframe {
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
@@ -35,6 +37,10 @@ iframe {
 
 
 /*Задание фона для header*/
+
+header {
+    background-color: #f5f4f0;
+}
 
 header::before {
     content: ''; 
@@ -44,9 +50,8 @@ header::before {
     bottom: 0;
     left: 0;
     background: no-repeat url(../images/background.png);
-    background-color: #e5e5e5;
     background-size: cover;
-    opacity: 0.06;
+    opacity: 0.1;
 }
 
 
@@ -67,9 +72,11 @@ header::before {
 
 .container {
     position: relative;
-    margin: 100px auto;
+    margin: 0 auto;
+    padding-top: 100px;
     width: 1110px;
 }
+
 
 .header-btn {  
     display: inline-block;
@@ -81,6 +88,7 @@ header::before {
     display: inline-block;
     border: none;
     line-height: 28.8px;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .footer-btn {
@@ -95,23 +103,28 @@ header::before {
     display: flex;
 }
 
-.jc-spbtw {
+.jc-between {
     justify-content: space-between;
 }
 
-.flwr-wr {
+.fl-wrap {
     flex-wrap: wrap;
 }
 
-.fldir-col {
+.jc-end {
+    justify-content: flex-end;
+}
+
+.fldir-column {
     flex-direction: column;
 }
 
 
+
 /*Позиционирование*/
 
-.top--55 {
-    top: -55px;
+.top-45 {
+    top: 45px;
 }
 
 .right--270 {
@@ -134,7 +147,7 @@ header::before {
 /*Внешние отступы*/
 
 .m-0 {
-    margin: 0;
+    margin: 0 0;
 }
 
 /*сверху*/
@@ -142,12 +155,16 @@ header::before {
     margin-top: 225px;
 }
 
-.mt-203 {
-    margin-top: 203px;
+.mt-200 {
+    margin-top: 200px;
 }
 
 .mt-100 {
     margin-top: 100px;
+}
+
+.mt--100 {
+    margin-top: -100px;
 }
 
 .mt-60 {
@@ -162,8 +179,28 @@ header::before {
     margin-top: 43px;
 }
 
+.mt-40 {
+    margin-top: 40px;
+}
+
 .mt-38 {
     margin-top: 38px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mt-21 {
+    margin-top: 21px;
+}
+
+.mt-20 {
+    margin-top: 20px;
 }
 
 .mt-16 {
@@ -176,6 +213,14 @@ header::before {
 
 .mt-8 {
     margin-top: 8px;
+}
+
+.mt-4 {
+    margin-top: 4px;
+}
+
+.mt-3 {
+    margin-top: 3px;
 }
 
 .mt-0 {
@@ -196,8 +241,12 @@ header::before {
     margin-bottom: 55px;
 }
 
-.mb-36 {
-    margin-bottom: 36px;
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
 }
 
 .mb-16 {
@@ -208,6 +257,10 @@ header::before {
     margin-bottom: 8px;
 }
 
+.mb-4 {
+    margin-bottom: 4px;
+}
+
 .mb-0 {
     margin-bottom: 0;
 }
@@ -215,6 +268,10 @@ header::before {
 /*слева*/
 .ml-570 {
     margin-left: 570px;
+}
+
+.ml-166 {
+    margin-left: 166px;
 }
 
 .ml-125 {
@@ -229,6 +286,10 @@ header::before {
     margin-left: 52px;
 }
 
+.ml-24 {
+    margin-left: 24px;
+}
+
 .ml-16 {
     margin-left: 16px;
 }
@@ -240,6 +301,18 @@ header::before {
 
 /*Внутренние отступы*/
 /*сверху*/
+.pt-200 {
+    padding-top: 200px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pt-24 {
+    padding-top: 24px;
+}
+
 .pt-12 {
     padding-top: 12px;
 }
@@ -248,14 +321,23 @@ header::before {
     padding-top: 10px;
 }
 
+
 /*справа*/
 .pr-24 {
     padding-right: 24px;
 }
 
 /*снизу*/
+.pb-100 {
+    padding-bottom: 100px;
+}
+
 .pb-12 {
     padding-bottom: 12px;
+}
+
+.pb-0 {
+    padding-bottom: 0;
 }
 
 /*слева*/
@@ -271,28 +353,37 @@ header::before {
 /*Размеры используемых шрифтов*/
 
 .fs-72 {
-    font-size: 72px;   
+    font-size: 72px; /*h1*/  
+}
+
+.fs-64 {
+    font-size: 64px; /*h2*/ 
 }
 
 .fs-60 {
-    font-size: 60px;
+    font-size: 60px; /*h2*/ 
+}
+
+.fs-52 {
+    font-size: 52px; /*h2*/ 
 }
 
 .fs-34 {
-    font-size: 34px;
+    font-size: 34px; /*h3*/ 
 }
 
 .fs-18 {
     font-size: 18px;
 }
 
+.fs-16 {
+    font-size: 16px;   
+}
+
 .fs-12 {
     font-size: 12px;   
 }
 
-.fs-16 {
-    font-size: 16px;   
-}
 
 
 /*Толщина шрифта*/
@@ -354,8 +445,16 @@ header::before {
     width: 540px;
 }
 
+.w-350 {
+    width: 350px;
+}
+
 .w-394 {
     width: 394px;
+}
+
+.w-302 {
+    width: 302px;
 }
 
 .w-149 {
@@ -371,6 +470,14 @@ header::before {
 
 .h-525 {
     height: 525px;
+}
+
+.h-310 {
+    height: 310px;
+}
+
+.h-348 {
+    height: 348px;
 }
 
 .h-196 {

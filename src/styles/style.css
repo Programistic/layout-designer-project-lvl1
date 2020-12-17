@@ -36,10 +36,18 @@ iframe {
 }
 
 
-/*Задание фона для header*/
+/*Задание фона для header и секций*/
 
-header {
+header,
+#ikea-effect,
+#distortion-of-novelty,
+#errors-in-planning {
     background-color: #f5f4f0;
+}
+
+#premature-optimization,
+#hyperbolic-depreciation {
+    background-color: #b09a81;
 }
 
 header::before {
@@ -54,7 +62,7 @@ header::before {
     opacity: 0.1;
 }
 
-
+ 
 /*Изображение для кнопки в footer*/
 
 .footer-btn::before {
@@ -74,6 +82,7 @@ header::before {
     position: relative;
     margin: 0 auto;
     padding-top: 100px;
+    padding-bottom: 100px;
     width: 1110px;
 }
 
@@ -120,7 +129,6 @@ header::before {
 }
 
 
-
 /*Позиционирование*/
 
 .top-45 {
@@ -144,6 +152,15 @@ header::before {
 }
 
 
+.float-r {
+    float: right;
+}
+
+.float-l {
+    float: left;
+}
+
+
 /*Внешние отступы*/
 
 .m-0 {
@@ -163,8 +180,8 @@ header::before {
     margin-top: 100px;
 }
 
-.mt--100 {
-    margin-top: -100px;
+.mt--84 {
+    margin-top: -84px;
 }
 
 .mt-60 {
@@ -189,6 +206,10 @@ header::before {
 
 .mt-35 {
     margin-top: 35px;
+}
+
+.mt-30 {
+    margin-top: 30px;
 }
 
 .mt-24 {
@@ -230,6 +251,10 @@ header::before {
 /*справа*/
 .mr--270 {
     margin-right: -270px;
+}
+
+.mr-30 {
+    margin-right: 30px;
 }
 
 .mr-0 {
@@ -321,6 +346,10 @@ header::before {
     padding-top: 10px;
 }
 
+.pt-5 {
+    padding-top: 5px;
+}
+
 
 /*справа*/
 .pr-24 {
@@ -336,6 +365,10 @@ header::before {
     padding-bottom: 12px;
 }
 
+.pb-5 {
+    padding-bottom: 5px;
+}
+
 .pb-0 {
     padding-bottom: 0;
 }
@@ -347,6 +380,10 @@ header::before {
 
 .pl-15 {
     padding-left: 15px;
+}
+
+.pl-10 {
+    padding-left: 10px;
 }
 
 
@@ -370,6 +407,10 @@ header::before {
 
 .fs-34 {
     font-size: 34px; /*h3*/ 
+}
+
+.fs-24 {
+    font-size: 24px; /* */ 
 }
 
 .fs-18 {
@@ -396,11 +437,29 @@ header::before {
     font-weight: 700;
 }
 
+/*Межстрочный интервал*/
+
+.lh-72 {
+    line-height: 72px;
+}
+
+.lh-40 {
+    line-height: 40.8px;
+}
+
 
 /*Цвет шрифта*/
 
 .c-white {
     color: #ffffff;
+}
+
+.c-white-50 {
+    color: #d7ccc0;
+}
+
+.c-brown {
+    color: #b09a81;
 }
 
 .c-primary {
@@ -411,8 +470,15 @@ header::before {
     color: #2a2626;
 }
 
+.c-secondary {
+    color: #908d8b;
+}
 
 /*Цвет фона*/
+
+.bg-c-white {
+    background-color: #ffffff;
+}
 
 .bg-c-light {
     background-color: #f5f4f0;
@@ -445,6 +511,19 @@ header::before {
     width: 540px;
 }
 
+.w-548 {
+    width: 548px;
+}
+
+.w-532 {
+    width: 532px;
+}
+
+.w-502 {
+    width: 502px;
+}
+
+
 .w-350 {
     width: 350px;
 }
@@ -470,6 +549,10 @@ header::before {
 
 .h-525 {
     height: 525px;
+}
+
+.h-405 {
+    height: 405px;
 }
 
 .h-310 {

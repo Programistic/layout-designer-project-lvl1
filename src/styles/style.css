@@ -86,10 +86,10 @@ header::before {
     width: 1110px;
 }
 
-
 .header-btn {  
     display: inline-block;
     border: none;
+    padding: 11px 23px 12px 24px;
     line-height: 25.6px;
 }
 
@@ -116,6 +116,10 @@ header::before {
     justify-content: space-between;
 }
 
+.jc-center {
+    justify-content: center;
+}
+
 .fl-wrap {
     flex-wrap: wrap;
 }
@@ -126,6 +130,10 @@ header::before {
 
 .fldir-column {
     flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
 }
 
 
@@ -168,8 +176,8 @@ header::before {
 }
 
 /*сверху*/
-.mt-225 {
-    margin-top: 225px;
+.mt-185 {
+    margin-top: 185px;
 }
 
 .mt-200 {
@@ -264,6 +272,10 @@ header::before {
 /*снизу*/
 .mb-55 {
     margin-bottom: 55px;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
 }
 
 .mb-30 {

@@ -62,7 +62,7 @@ header::before {
     opacity: 0.1;
 }
 
- 
+
 /*Изображение для кнопки в footer*/
 
 .footer-btn::before {
@@ -124,16 +124,20 @@ header::before {
     flex-wrap: wrap;
 }
 
-.jc-end {
-    justify-content: flex-end;
-}
-
 .fldir-column {
     flex-direction: column;
 }
 
 .align-center {
     align-items: center;
+}
+
+.fl-grow-5 {
+    flex-grow: 5;
+}
+
+.fl-basis-540 {
+    flex-basis: 540px;
 }
 
 
@@ -366,6 +370,10 @@ header::before {
 /*справа*/
 .pr-24 {
     padding-right: 24px;
+}
+
+.pr-30 {
+    padding-right: 30px;
 }
 
 /*снизу*/

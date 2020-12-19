@@ -93,10 +93,17 @@ header::before {
     line-height: 25.6px;
 }
 
+.nav-txtblock {
+    flex-basis: 302px;
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
 .footer-input {
     display: inline-block;
     border: none;
-    line-height: 28.8px;
+    line-height: 20.96px;
     color: rgba(0, 0, 0, 0.8);
 }
 
@@ -140,6 +147,13 @@ header::before {
     flex-basis: 540px;
 }
 
+.fl-basis-548 {
+    flex-basis: 548px;
+}
+
+.fl-basis-532 {
+    flex-basis: 532px;
+}
 
 /*Позиционирование*/
 
@@ -194,6 +208,10 @@ header::before {
 
 .mt--84 {
     margin-top: -84px;
+}
+
+.mt-76 {
+    margin-top: 76px;
 }
 
 .mt-60 {
@@ -282,8 +300,16 @@ header::before {
     margin-bottom: 35px;
 }
 
+.mb-33 {
+    margin-bottom: 33px;
+}
+
 .mb-30 {
     margin-bottom: 30px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
 }
 
 .mb-20 {
@@ -292,6 +318,10 @@ header::before {
 
 .mb-16 {
     margin-bottom: 16px;
+}
+
+.mb-9 {
+    margin-bottom: 9px;
 }
 
 .mb-8 {
@@ -323,8 +353,12 @@ header::before {
     margin-left: 95px;
 }
 
-.ml-52 {
-    margin-left: 52px;
+.ml-55 {
+    margin-left: 55px;
+}
+
+.ml-30 {
+    margin-left: 30px;
 }
 
 .ml-24 {
@@ -354,6 +388,10 @@ header::before {
     padding-top: 24px;
 }
 
+.pt-17 {
+    padding-top: 17px;
+}
+
 .pt-12 {
     padding-top: 12px;
 }
@@ -368,17 +406,26 @@ header::before {
 
 
 /*справа*/
-.pr-24 {
-    padding-right: 24px;
-}
-
 .pr-30 {
     padding-right: 30px;
 }
 
+.pr-24 {
+    padding-right: 24px;
+}
+
+.pr-10 {
+    padding-right: 9px;
+}
+
+
 /*снизу*/
 .pb-100 {
     padding-bottom: 100px;
+}
+
+.pb-18 {
+    padding-bottom: 18px;
 }
 
 .pb-12 {
@@ -439,6 +486,10 @@ header::before {
 
 .fs-16 {
     font-size: 16px;   
+}
+
+.fs-13 {
+    font-size: 13px;   
 }
 
 .fs-12 {

@@ -402,6 +402,14 @@ body {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
+/* Стиль для картинок */
+.img {
+  width: 578px;
+  height: 434px;
+
+  vertical-align: middle;
+}
+
 /* Тень для картинок */
 .img-shadow {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));

@@ -17,3 +17,4 @@ $ make install
 ```sh
 make lint
 ```
+https://erratic-size.surge.sh

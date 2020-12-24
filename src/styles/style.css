@@ -334,7 +334,7 @@ body {
 /* Реакция на наведение мыши */
 
 /* на карточку */
-.a-card:hover {
+.card-hover:hover {
   color: #fff;
 
   cursor: pointer;
@@ -345,7 +345,7 @@ body {
 }
 
 /* на кнопку */
-.a-btn:hover {
+.btn-hover:hover {
   cursor: pointer;
 
   --bg-c-primary: #ea7600;

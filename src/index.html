@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Когнитивные искажения maksim.dav@mail.ru</title>
-    <link rel="stylesheet" href="../src/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
 
             <h1 class="h1"><span class="c-primary">Когнитивные<br>искажения</span><br>в программировании</h1>
 
-            <img src="../src/images/main.png" alt="Главная картинка" class="header-img">
+            <img src="./images/main.png" alt="Главная картинка" class="header-img">
 
             <div class="d-fl mt-185">
 
@@ -34,9 +34,9 @@
                         Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
                     </p>
 
-                    <a href="#cognitive-biases">
-                        <button class="a-btn header-btn mt-40"><span class="uppercase">подробнее</span></button>
-                    </a>
+                    <form action="#cognitive-biases">
+                        <button class="btn-hover header-btn mt-40"><span class="uppercase">подробнее</span></button>
+                    </form>
 
                 </div>
                
@@ -56,9 +56,7 @@
 
                 <p class="mt-27">Что такое когнитивные искажения. Petrovna Channel</p>
 
-                <iframe class="iframe" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen>
-                    <p>Ваш браузер не поддерживает iframe</p>
-                </iframe>
+                <iframe class="iframe" src="https://www.youtube.com/embed/jie9AizBqss" allowfullscreen></iframe>
 
             </div>
 
@@ -72,31 +70,31 @@
                     <h2 class="pr-10 h2-2 c-primary">5 когнитивных<br>искажений<br> <span class="c-white">о существовании<br>которых стоит<br>помнить</span></h2>
                 </div>
 
-                <a href="#ikea-effect" class="a-card card mr-30 bg-c-light">
+                <a href="#ikea-effect" class="card-hover card mr-30 bg-c-light">
                     <p class="p1 c-text">1</p>
                     <h3 class="mt-40 h3 c-primary">Эффект ИКЕА</h3>
                     <p class="mt-16 c-text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
                 </a>
                 
-                <a href="#premature-optimization" class="a-card card bg-c-light">
+                <a href="#premature-optimization" class="card-hover card bg-c-light">
                     <p class="p1 c-text">2</p>
                     <h3 class="mt-40 h3 c-primary">Преждевременная оптимизация</h3>
                     <p class="mt-16 c-text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
                 </a>
 
-                <a href="#distortion-of-novelty" class="a-card card mt-20 mr-30 bg-c-light">
+                <a href="#distortion-of-novelty" class="card-hover card mt-20 mr-30 bg-c-light">
                     <p class="p1 c-text">3</p>
                     <h3 class="mt-40 h3 c-primary">Искажение новизны</h3>
                     <p class="mt-16 c-text">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
                 </a>
 
-                <a href="#hyperbolic-depreciation" class="a-card card mt-20 mr-30 bg-c-light">
+                <a href="#hyperbolic-depreciation" class="card-hover card mt-20 mr-30 bg-c-light">
                     <p class="p1 c-text">4</p>
                     <h3 class="mt-40 h3 c-primary">Гиперболическое обесценивание</h3>
                     <p class="mt-16 c-text">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
                 </a>
 
-                <a href="#errors-in-planning" class="a-card card mt-20 bg-c-light">
+                <a href="#errors-in-planning" class="card-hover card mt-20 bg-c-light">
                     <p class="p1 c-text">5</p>
                     <h3 class="mt-40 h3 c-primary">Ошибка планирования</h3>
                     <p class="mt-16 c-text">Неправильно рассчитываете время, необходимое для завершения задачи.</p>
@@ -289,7 +287,7 @@
 
     </main>
 
-    <footer id="footer">
+    <footer>
 
         <div class="container">
 
@@ -304,10 +302,8 @@
                     <form class="d-fl">
 
                         <input type="text" placeholder="Ваша электронная почта" size="20" class="footer-input">
-
-                        <a href="#footer">
-                            <button class="a-btn footer-btn bg-c-primary"></button>
-                        </a>
+                        
+                        <button class="btn-hover footer-btn bg-c-primary"></button>                       
 
                     </form>
 

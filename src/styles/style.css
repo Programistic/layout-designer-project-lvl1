@@ -22,7 +22,7 @@ body {
   font-size: 16px;
 
   font-family: 'Open Sans', sans-serif;
-  line-height: 25.6px;
+  line-height: 1.6em;
 }
 
 /* Переменные, цвет текста и фона */
@@ -46,7 +46,7 @@ body {
   color: var(--c-white);
 }
 
-.c-white-50 {
+.c-white50 {
   color: var(--c-white50);
 }
 
@@ -92,80 +92,63 @@ body {
 }
 
 /* Стиль текста в заголовках */
-.h1 {
+.heading {
   font-weight: 400;
-  font-size: 72px;
   font-family: 'Neucha', cursive;
-  line-height: 86.4px;
+  line-height: 1.2em;
 }
 
-.h2 {
-  font-weight: 400;
-  font-size: 60px;
-  font-family: 'Neucha', cursive;
-  line-height: 72px;
-}
-
-.h2-2 {
-  font-weight: 400;
-  font-size: 52px;
-  font-family: 'Neucha', cursive;
-  line-height: 62.4px;
-}
-
-.h3 {
-  font-weight: 400;
-  font-size: 34px;
-  font-family: 'Neucha', cursive;
-  line-height: 40.8px;
-}
-
-.h3-2 {
+.heading-howappears {
+  margin: 100px 0 0 0;
   padding: 5px 10px;
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 16.8px;
-}
-
-.h4 {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28.8px;
+  line-height: 1.2em;
 }
 
 /* Стиль текста в параграфах */
-.p1 {
+.paragraph {
   font-weight: 400;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+}
+
+/* Размер шрифта */
+.fs-72 {
+  font-size: 72px;
+}
+
+.fs-64 {
   font-size: 64px;
-  font-family: 'Neucha', cursive;
-  line-height: 70.5px;
 }
 
-.p2 {
-  font-weight: 400;
+.fs-60 {
+  font-size: 60px;
+}
+
+.fs-52 {
+  font-size: 52px;
+}
+
+.fs-34 {
   font-size: 34px;
-  font-family: 'Neucha', cursive;
-  line-height: 40.8px;
 }
 
-.p3 {
-  font-weight: 400;
+.fs-24 {
   font-size: 24px;
-  font-family: 'Neucha', cursive;
-  line-height: 28.8px;
 }
 
-.p4 {
-  font-weight: 400;
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-14 {
   font-size: 14px;
-  line-height: 22.4px;
 }
 
-.p5 {
-  font-weight: 400;
+.fs-12 {
   font-size: 12px;
-  line-height: 19.2px;
 }
 
 /* Стиль для общего "хранилища" */
@@ -174,8 +157,7 @@ body {
 
   width: 1110px;
   margin: 0 auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 /* Позиционирование */
@@ -183,19 +165,19 @@ body {
   position: relative;
 }
 
-.d-fl {
+.d-flex {
   display: flex;
 }
 
-.jc-between {
+.justify-between {
   justify-content: space-between;
 }
 
-.fl-wrap {
+.flex-wrap {
   flex-wrap: wrap;
 }
 
-.fldir-column {
+.flex-column {
   flex-direction: column;
 }
 
@@ -203,7 +185,7 @@ body {
   align-items: center;
 }
 
-.t-center {
+.text-center {
   text-align: center;
 }
 
@@ -230,10 +212,6 @@ body {
 
 .mt-76 {
   margin-top: 76px;
-}
-
-.mt-55 {
-  margin-top: 55px;
 }
 
 .mt-40 {
@@ -270,8 +248,8 @@ body {
 }
 
 /* снизу */
-.mb-55 {
-  margin-bottom: 55px;
+.mb-40 {
+  margin-bottom: 40px;
 }
 
 .mb-9 {
@@ -281,10 +259,6 @@ body {
 /* слева */
 .ml-125 {
   margin-left: 125px;
-}
-
-.ml-55 {
-  margin-left: 55px;
 }
 
 /* Внутренние отступы */
@@ -299,8 +273,13 @@ body {
   padding-right: 9px;
 }
 
-/* Задание фона для header */
-.header-bg::before {
+/* слева */
+.pl-55 {
+  padding-left: 55px;
+}
+
+/* Фон-рисунок для header и секций */
+.bg-image::before {
   position: absolute;
 
   top: 0;
@@ -315,37 +294,16 @@ body {
   content: '';
 }
 
-/* Задание фона для секций */
-.section-bg::before {
-  position: absolute;
+/* Общий стиль для кнопок */
+.button {
+  display: inline-block;
 
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  background-color: var(--bg-c-primary);
 
-  background: no-repeat url(../images/background.png);
-  background-size: cover;
-  opacity: 0.1;
-
-  content: '';
+  border: none;
 }
 
-/* Реакция на наведение мыши */
-
-/* на карточку */
-.card-hover:hover {
-  color: #fff;
-
-  cursor: pointer;
-
-  --bg-c-light: #fe8a02;
-  --c-primary: #fff;
-  --c-text: #fff;
-}
-
-/* на кнопку */
-.btn-hover:hover {
+.button:hover {
   cursor: pointer;
 
   --bg-c-primary: #ea7600;
@@ -353,8 +311,8 @@ body {
 
 /* --------------- HEADER --------------- */
 
-/* Стили для картинки */
-.header-img {
+/* Стиль для картинки */
+.image-main {
   position: absolute;
 
   top: 45px;
@@ -364,11 +322,11 @@ body {
   height: 525px;
 }
 
-/* Стили для кнопки */
-.header-btn {
-  display: inline-block;
+/* Стиль для кнопки */
+.button-moreinfo {
   width: 148px;
   height: 49px;
+  margin-top: 40px;
 
   color: var(--c-white);
 
@@ -376,10 +334,6 @@ body {
 
   line-height: 25.6px;
   text-align: center;
-
-  background-color: var(--bg-c-primary);
-
-  border: none;
 }
 
 /* ---------------- MAIN ---------------- */
@@ -392,6 +346,16 @@ body {
   text-decoration: none;
 }
 
+.card:hover {
+  color: #fff;
+
+  cursor: pointer;
+
+  --bg-c-light: #fe8a02;
+  --c-primary: #fff;
+  --c-text: #fff;
+}
+
 /* Фрейм для видео */
 .iframe {
   width: 919px;
@@ -402,7 +366,7 @@ body {
 }
 
 /* Стиль для картинок */
-.img {
+.image {
   width: 578px;
   height: 434px;
 
@@ -410,30 +374,14 @@ body {
 }
 
 /* Тень для картинок */
-.img-shadow {
+.image-shadow {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 /* --------------- FOOTER --------------- */
 
-/* Изображение для кнопки */
-.footer-btn::before {
-  position: absolute;
-
-  top: 15px;
-  left: 20px;
-
-  width: 23px;
-  height: 23px;
-
-  background-image: url(../images/send.svg);
-  background-position: center center;
-
-  content: '';
-}
-
 /* Стиль для поля ввода */
-.footer-input {
+.input-email {
   display: inline-block;
 
   width: 423px;
@@ -449,13 +397,24 @@ body {
 }
 
 /* Стиль для кнопки */
-.footer-btn {
+.button-send {
   position: relative;
-
-  display: inline-block;
 
   width: 62px;
   height: 50px;
+}
 
-  border: none;
+.button-send::before {
+  position: absolute;
+
+  top: 15px;
+  left: 20px;
+
+  width: 23px;
+  height: 23px;
+
+  background-image: url(../images/send.svg);
+  background-position: center center;
+
+  content: '';
 }

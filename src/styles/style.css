@@ -14,10 +14,11 @@
   padding: 0;
 }
 
-body {
+/* Общий стиль для всего документа */
+.body {
   overflow-x: hidden;
 
-  color: var(--c-text);
+  color: var(--color-text);
   font-weight: 400;
   font-size: 16px;
 
@@ -27,68 +28,68 @@ body {
 
 /* Переменные, цвет текста и фона */
 :root {
-  --c-white: #fff;
-  --c-white50: #d7ccc0;
-  --c-brown: #b09a81;
-  --c-primary: #fe8a02;
-  --c-text: #2a2626;
-  --c-secondary: #908d8b;
-  --bg-c-white: #fff;
-  --bg-c-light: #f5f4f0;
-  --bg-c-primary: #fe8a02;
-  --bg-c-secondary: #908d8b;
-  --bg-c-dark: #b09a81;
-  --bg-c-primarydark: #42413c;
+  --color-white: #fff;
+  --color-white50: #d7ccc0;
+  --color-brown: #b09a81;
+  --color-primary: #fe8a02;
+  --color-text: #2a2626;
+  --color-secondary: #908d8b;
+  --bg-white: #fff;
+  --bg-light: #f5f4f0;
+  --bg-primary: #fe8a02;
+  --bg-secondary: #908d8b;
+  --bg-dark: #b09a81;
+  --bg-primarydark: #42413c;
 }
 
 /* Цвет шрифта */
-.c-white {
-  color: var(--c-white);
+.color-white {
+  color: var(--color-white);
 }
 
-.c-white50 {
-  color: var(--c-white50);
+.color-white50 {
+  color: var(--color-white50);
 }
 
-.c-brown {
-  color: var(--c-brown);
+.color-brown {
+  color: var(--color-brown);
 }
 
-.c-primary {
-  color: var(--c-primary);
+.color-primary {
+  color: var(--color-primary);
 }
 
-.c-text {
-  color: var(--c-text);
+.color-text {
+  color: var(--color-text);
 }
 
-.c-secondary {
-  color: var(--c-secondary);
+.color-secondary {
+  color: var(--color-secondary);
 }
 
 /* Цвет фона */
-.bg-c-white {
-  background-color: var(--bg-c-white);
+.bg-white {
+  background-color: var(--bg-white);
 }
 
-.bg-c-light {
-  background-color: var(--bg-c-light);
+.bg-light {
+  background-color: var(--bg-light);
 }
 
-.bg-c-secondary {
-  background-color: var(--bg-c-secondary);
+.bg-secondary {
+  background-color: var(--bg-secondary);
 }
 
-.bg-c-dark {
-  background-color: var(--bg-c-dark);
+.bg-dark {
+  background-color: var(--bg-dark);
 }
 
-.bg-c-primary {
-  background-color: var(--bg-c-primary);
+.bg-primary {
+  background-color: var(--bg-primary);
 }
 
-.bg-c-primarydark {
-  background-color: var(--bg-c-primarydark);
+.bg-primarydark {
+  background-color: var(--bg-primarydark);
 }
 
 /* Стиль текста в заголовках */
@@ -194,6 +195,11 @@ body {
   text-transform: uppercase;
 }
 
+/* Тень для картинок и видео */
+.shadow {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
 /* Ширина колонки текста */
 .col {
   flex-basis: 540px;
@@ -279,7 +285,7 @@ body {
 }
 
 /* Фон-рисунок для header и секций */
-.bg-image::before {
+.bg-questions::before {
   position: absolute;
 
   top: 0;
@@ -295,18 +301,16 @@ body {
 }
 
 /* Общий стиль для кнопок */
-.button {
-  display: inline-block;
+.btn {
+  color: var(--color-white);
 
-  background-color: var(--bg-c-primary);
-
-  border: none;
+  background-color: var(--bg-primary);
 }
 
-.button:hover {
+.btn:hover {
   cursor: pointer;
 
-  --bg-c-primary: #ea7600;
+  --bg-primary: #ea7600;
 }
 
 /* --------------- HEADER --------------- */
@@ -323,17 +327,14 @@ body {
 }
 
 /* Стиль для кнопки */
-.button-moreinfo {
-  width: 148px;
-  height: 49px;
-  margin-top: 40px;
+.btn-primary {
+  display: inline-block;
 
-  color: var(--c-white);
+  padding: 12px 24px;
 
   font-weight: 700;
 
-  line-height: 25.6px;
-  text-align: center;
+  text-decoration: none;
 }
 
 /* ---------------- MAIN ---------------- */
@@ -351,18 +352,17 @@ body {
 
   cursor: pointer;
 
-  --bg-c-light: #fe8a02;
-  --c-primary: #fff;
-  --c-text: #fff;
+  --bg-light: #fe8a02;
+  --color-primary: #fff;
+  --color-text: #fff;
 }
 
 /* Фрейм для видео */
 .iframe {
   width: 919px;
   height: 569px;
-  margin-top: 30px;
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  border: none;
 }
 
 /* Стиль для картинок */
@@ -371,11 +371,6 @@ body {
   height: 434px;
 
   vertical-align: middle;
-}
-
-/* Тень для картинок */
-.image-shadow {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 /* --------------- FOOTER --------------- */
@@ -397,14 +392,16 @@ body {
 }
 
 /* Стиль для кнопки */
-.button-send {
+.btn-icon {
   position: relative;
 
   width: 62px;
   height: 50px;
+
+  border: none;
 }
 
-.button-send::before {
+.btn-icon::before {
   position: absolute;
 
   top: 15px;

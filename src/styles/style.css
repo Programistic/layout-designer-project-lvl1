@@ -105,7 +105,7 @@
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.2em;
+  line-height: 1em;
 }
 
 /* Стиль текста в параграфах */
@@ -210,8 +210,8 @@
 /* Внешние отступы */
 
 /* сверху */
-.mt-185 {
-  margin-top: 185px;
+.mt-200 {
+  margin-top: 200px;
 }
 
 .mt-100 {
@@ -244,6 +244,10 @@
 
 .mt-16 {
   margin-top: 16px;
+}
+
+.mt-12 {
+  margin-top: 12px;
 }
 
 .mt-m184 {
@@ -321,7 +325,7 @@
 .image-main {
   position: absolute;
 
-  top: 45px;
+  top: 55px;
   right: -270px;
 
   z-index: -1;
@@ -383,14 +387,10 @@
 .input-email {
   display: inline-block;
 
-  width: 423px;
-  padding-left: 15px;
+  width: 425px;
+  padding: 15px;
 
   color: rgba(117, 117, 117, 0.8);
-
-  font-weight: 400;
-  font-size: 13.1px;
-  line-height: 20.96px;
 
   border: none;
 }
@@ -399,7 +399,7 @@
 .btn-icon {
   position: relative;
 
-  width: 62px;
+  width: 70px;
   height: 50px;
 
   border: none;
@@ -409,7 +409,7 @@
   position: absolute;
 
   top: 15px;
-  left: 20px;
+  left: 21px;
 
   width: 23px;
   height: 23px;

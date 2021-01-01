@@ -210,8 +210,8 @@
 /* Внешние отступы */
 
 /* сверху */
-.mt-200 {
-  margin-top: 200px;
+.mt-202 {
+  margin-top: 202px;
 }
 
 .mt-100 {
@@ -234,8 +234,8 @@
   margin-top: 30px;
 }
 
-.mt-27 {
-  margin-top: 27px;
+.mt-25 {
+  margin-top: 25px;
 }
 
 .mt-20 {
@@ -334,7 +334,7 @@
 
   z-index: -1;
 
-  width: 1082px;
+  width: 1082.81px;
   height: 525px;
 }
 

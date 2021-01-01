@@ -149,7 +149,7 @@
 }
 
 .fs-13 {
-  font-size: 13px;
+  font-size: 13.1px;
 }
 
 .fs-12 {
@@ -230,8 +230,8 @@
   margin-top: 40px;
 }
 
-.mt-38 {
-  margin-top: 38px;
+.mt-39 {
+  margin-top: 39px;
 }
 
 .mt-30 {
@@ -270,6 +270,10 @@
 
 .mb-13 {
   margin-bottom: 13px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
 }
 
 .mb-9 {

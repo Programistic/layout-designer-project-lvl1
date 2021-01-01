@@ -222,8 +222,8 @@
   margin-top: 100px;
 }
 
-.mt-77 {
-  margin-top: 77px;
+.mt-75 {
+  margin-top: 75px;
 }
 
 .mt-40 {
@@ -238,12 +238,12 @@
   margin-top: 20px;
 }
 
-.mt-18 {
-  margin-top: 18px;
-}
-
 .mt-16 {
   margin-top: 16px;
+}
+
+.mt-14 {
+  margin-top: 14px;
 }
 
 .mt-12 {
@@ -421,7 +421,7 @@
   position: absolute;
 
   top: 15px;
-  left: 19px;
+  left: 20px;
 
   width: 23px;
   height: 23px;

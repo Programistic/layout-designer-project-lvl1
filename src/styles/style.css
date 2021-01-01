@@ -399,19 +399,19 @@
 .input-email {
   display: inline-block;
 
-  width: 385px;
+  width: 393px;
   padding: 15px;
 
   color: rgba(117, 117, 117, 0.8);
 
-  border: none;
+  border: 1px;
 }
 
 /* Стиль для кнопки */
 .btn-icon {
   position: relative;
 
-  width: 70px;
+  width: 62px;
   height: 50px;
 
   border: none;
@@ -421,7 +421,7 @@
   position: absolute;
 
   top: 15px;
-  left: 21px;
+  left: 19px;
 
   width: 23px;
   height: 23px;

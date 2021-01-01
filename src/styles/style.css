@@ -214,8 +214,8 @@
 /* Внешние отступы */
 
 /* сверху */
-.mt-200 {
-  margin-top: 195px;
+.mt-199 {
+  margin-top: 199px;
 }
 
 .mt-100 {
@@ -260,10 +260,6 @@
 }
 
 /* снизу */
-.mb-78 {
-  margin-bottom: 78px;
-}
-
 .mb-40 {
   margin-bottom: 40px;
 }
@@ -346,7 +342,7 @@
 .btn-primary {
   display: inline-block;
 
-  padding: 12px 24px;
+  padding: 13px 24px;
 
   font-weight: 700;
 

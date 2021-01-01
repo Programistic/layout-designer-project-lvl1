@@ -222,8 +222,8 @@
   margin-top: 100px;
 }
 
-.mt-75 {
-  margin-top: 75px;
+.mt-74 {
+  margin-top: 74px;
 }
 
 .mt-40 {
@@ -242,8 +242,8 @@
   margin-top: 16px;
 }
 
-.mt-14 {
-  margin-top: 14px;
+.mt-13 {
+  margin-top: 13px;
 }
 
 .mt-12 {
@@ -421,10 +421,10 @@
   position: absolute;
 
   top: 15px;
-  left: 20px;
+  left: 21px;
 
-  width: 23px;
-  height: 23px;
+  width: 22px;
+  height: 22px;
 
   background-image: url(../images/send.svg);
   background-position: center center;

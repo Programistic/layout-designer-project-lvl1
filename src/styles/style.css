@@ -274,8 +274,8 @@ ul {
   margin-top: 14px;
 }
 
-.mt-m190 {
-  margin-top: -190px;
+.mt-m192 {
+  margin-top: -192px;
 }
 
 /* справа */
@@ -403,7 +403,7 @@ ul {
 
   color: var(--color-primarydark);
 
-  font-size: 4em;
+  font-size: 3.9em;
 
   font-family: 'Neucha', cursive;
 

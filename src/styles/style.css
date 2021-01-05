@@ -274,8 +274,8 @@ ul {
   margin-top: 14px;
 }
 
-.mt-m192 {
-  margin-top: -192px;
+.mt-m193 {
+  margin-top: -193px;
 }
 
 /* справа */
@@ -403,11 +403,11 @@ ul {
 
   color: var(--color-primarydark);
 
-  font-size: 3.9em;
+  font-size: 64px;
 
   font-family: 'Neucha', cursive;
 
-  line-height: 1.1em;
+  line-height: 1em;
 }
 
 .card:hover {

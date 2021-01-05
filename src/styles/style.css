@@ -34,6 +34,7 @@
   --color-primary: #fe8a02;
   --color-text: #2a2626;
   --color-secondary: #908d8b;
+  --color-link: #1085c5;
   --bg-white: #fff;
   --bg-light: #f5f4f0;
   --bg-primary: #fe8a02;
@@ -65,6 +66,10 @@
 
 .color-secondary {
   color: var(--color-secondary);
+}
+
+.color-link {
+  color: var(--color-link);
 }
 
 /* Цвет фона */
@@ -400,7 +405,7 @@
   position: absolute;
 
   top: 15px;
-  left: 21px;
+  left: 20px;
 
   width: 22px;
   height: 22px;

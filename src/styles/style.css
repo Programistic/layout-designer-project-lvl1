@@ -26,15 +26,20 @@ h3 {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 4.5em;
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 3.75em;
 }
 
 h3 {
-  font-size: 34px;
+  font-size: 2.125em;
+}
+
+p,
+ul {
+  margin-bottom: 16px;
 }
 
 /* Общий стиль для всего документа */
@@ -47,6 +52,8 @@ h3 {
 
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6em;
+
+  list-style-position: inside;
 }
 
 /* Переменные, цвет текста и фона */
@@ -131,6 +138,8 @@ h3 {
 
 /* Стиль текста в параграфах */
 .paragraph {
+  margin-bottom: 0;
+
   font-weight: 400;
   font-family: 'Neucha', cursive;
   line-height: 1.2em;
@@ -222,6 +231,7 @@ h3 {
 /* Ширина колонки текста */
 .col {
   flex-basis: 540px;
+  margin-bottom: 0;
 }
 
 /* Внешние отступы */
@@ -241,6 +251,10 @@ h3 {
 
 .mt-30 {
   margin-top: 30px;
+}
+
+.mt-24 {
+  margin-top: 24px;
 }
 
 .mt-20 {
@@ -279,6 +293,10 @@ h3 {
 
 .mb-10 {
   margin-bottom: 10px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
 
 /* Внутренние отступы */

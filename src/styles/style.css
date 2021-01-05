@@ -14,6 +14,29 @@
   padding: 0;
 }
 
+h1,
+h2,
+h3 {
+  color: var(--color-primary);
+
+  font-weight: 400;
+  font-family: 'Neucha', cursive;
+
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
 /* Общий стиль для всего документа */
 .body {
   overflow-x: hidden;
@@ -97,20 +120,13 @@
   background-color: var(--bg-primarydark);
 }
 
-/* Стиль текста в заголовках */
-.heading {
-  font-weight: 400;
-  font-family: 'Neucha', cursive;
-  line-height: 1.2em;
-}
-
 .heading-howappears {
   margin: 100px 0 0 0;
   padding: 5px 10px;
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.2em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Стиль текста в параграфах */
@@ -121,16 +137,8 @@
 }
 
 /* Размер шрифта */
-.fs-72 {
-  font-size: 72px;
-}
-
 .fs-64 {
   font-size: 64px;
-}
-
-.fs-60 {
-  font-size: 60px;
 }
 
 .fs-52 {

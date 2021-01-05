@@ -17,6 +17,8 @@
 h1,
 h2,
 h3 {
+  margin-bottom: 8px;
+
   color: var(--color-primary);
 
   font-weight: 400;
@@ -237,10 +239,6 @@ ul {
 /* Внешние отступы */
 
 /* сверху */
-.mt-199 {
-  margin-top: 199px;
-}
-
 .mt-74 {
   margin-top: 74px;
 }
@@ -279,8 +277,16 @@ ul {
 }
 
 /* снизу */
+.mb-199 {
+  margin-bottom: 199px;
+}
+
 .mb-40 {
   margin-bottom: 40px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
 }
 
 .mb-16 {

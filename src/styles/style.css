@@ -66,6 +66,7 @@ ul {
   --color-white50: #d7ccc0;
   --color-brown: #b09a81;
   --color-primary: #fe8a02;
+  --color-primarydark: #42413c;
   --color-text: #2a2626;
   --color-secondary: #908d8b;
   --color-link: #1085c5;
@@ -92,6 +93,10 @@ ul {
 
 .color-primary {
   color: var(--color-primary);
+}
+
+.color-primarydark {
+  color: var(--color-primarydark);
 }
 
 .color-text {
@@ -269,8 +274,8 @@ ul {
   margin-top: 14px;
 }
 
-.mt-m190 {
-  margin-top: -190px;
+.mt-m188 {
+  margin-top: -188px;
 }
 
 /* справа */
@@ -394,9 +399,9 @@ ul {
 }
 
 .figure {
-  margin-bottom: 36px;
+  margin-bottom: 35px;
 
-  color: var(--color-text);
+  color: var(--color-primarydark);
 
   font-size: 4em;
 
@@ -412,6 +417,7 @@ ul {
 
   --bg-light: #fe8a02;
   --color-primary: #fff;
+  --color-primarydark: #fff;
   --color-text: #fff;
 }
 

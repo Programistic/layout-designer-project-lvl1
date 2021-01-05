@@ -269,8 +269,8 @@ ul {
   margin-top: 14px;
 }
 
-.mt-m184 {
-  margin-top: -184px;
+.mt-m182 {
+  margin-top: -182px;
 }
 
 /* справа */
@@ -285,6 +285,10 @@ ul {
 
 .mb-40 {
   margin-bottom: 40px;
+}
+
+.mb-36 {
+  margin-bottom: 36px;
 }
 
 .mb-30 {
@@ -387,6 +391,18 @@ ul {
   padding: 24px;
 
   text-decoration: none;
+}
+
+.figure {
+  margin-bottom: 36px;
+
+  color: var(--color-text);
+
+  font-size: 4em;
+
+  font-family: 'Neucha', cursive;
+
+  line-height: 1.101em;
 }
 
 .card:hover {

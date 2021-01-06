@@ -8,6 +8,24 @@
 /* Open Sans Regular 400 + 700 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+/* Переменные, цвет текста и фона */
+:root {
+  --color-white: #fff;
+  --color-white50: #d7ccc0;
+  --color-brown: #b09a81;
+  --color-primary: #fe8a02;
+  --color-primarydark: #42413c;
+  --color-text: #2a2626;
+  --color-secondary: #908d8b;
+  --color-link: #1085c5;
+  --bg-white: #fff;
+  --bg-light: #f5f4f0;
+  --bg-primary: #fe8a02;
+  --bg-secondary: #908d8b;
+  --bg-dark: #b09a81;
+  --bg-primarydark: #42413c;
+}
+
 /* Значения по умолчанию */
 * {
   margin: 0;
@@ -28,15 +46,15 @@ h3 {
 }
 
 h1 {
-  font-size: 4.5em;
+  font-size: 72px;
 }
 
 h2 {
-  font-size: 3.75em;
+  font-size: 60px;
 }
 
 h3 {
-  font-size: 2.125em;
+  font-size: 34px;
 }
 
 p {
@@ -58,24 +76,6 @@ ul {
 
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6em;
-}
-
-/* Переменные, цвет текста и фона */
-:root {
-  --color-white: #fff;
-  --color-white50: #d7ccc0;
-  --color-brown: #b09a81;
-  --color-primary: #fe8a02;
-  --color-primarydark: #42413c;
-  --color-text: #2a2626;
-  --color-secondary: #908d8b;
-  --color-link: #1085c5;
-  --bg-white: #fff;
-  --bg-light: #f5f4f0;
-  --bg-primary: #fe8a02;
-  --bg-secondary: #908d8b;
-  --bg-dark: #b09a81;
-  --bg-primarydark: #42413c;
 }
 
 /* Цвет шрифта */
@@ -155,10 +155,6 @@ ul {
 }
 
 /* Размер шрифта */
-.fs-64 {
-  font-size: 64px;
-}
-
 .fs-52 {
   font-size: 52px;
 }
@@ -254,24 +250,12 @@ ul {
   margin-top: 40px;
 }
 
-.mt-30 {
-  margin-top: 30px;
-}
-
 .mt-24 {
   margin-top: 24px;
 }
 
 .mt-20 {
   margin-top: 20px;
-}
-
-.mt-16 {
-  margin-top: 16px;
-}
-
-.mt-14 {
-  margin-top: 14px;
 }
 
 .mt-m193 {
@@ -292,16 +276,8 @@ ul {
   margin-bottom: 40px;
 }
 
-.mb-36 {
-  margin-bottom: 36px;
-}
-
 .mb-30 {
   margin-bottom: 30px;
-}
-
-.mb-16 {
-  margin-bottom: 16px;
 }
 
 .mb-14 {
@@ -443,7 +419,7 @@ ul {
 .input-email {
   display: inline-block;
 
-  width: 393px;
+  width: 385px;
   padding: 15px;
 
   color: rgba(117, 117, 117, 0.8);
@@ -455,7 +431,7 @@ ul {
 .btn-icon {
   position: relative;
 
-  width: 62px;
+  width: 70px;
   height: 50px;
 
   border: none;
@@ -465,7 +441,7 @@ ul {
   position: absolute;
 
   top: 14px;
-  left: 20px;
+  left: 24px;
 
   width: 22px;
   height: 22px;

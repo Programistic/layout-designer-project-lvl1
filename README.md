@@ -1,20 +1,19 @@
-##
-[![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/hexletguides.github.io/master/images/hexlet_logo128.png)](https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=nodejs-package)
+# Одностраничный сайт "Когнитивные искажения"
 
-This repository is created and maintained by the team and the community of Hexlet, an educational project. [Read more about Hexlet (in Russian)](https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=nodejs-package).
-##
+### https://erratic-size.surge.sh
 
-# HTML/CSS Boilerplate
+### Учебный проект от Хекслет
 
-## Setup
+##### Функциональность:
+Сайт знакомит пользователя с таким понятием, как когнитивные искажения в программировании.
 
-```sh
-$ make install
-```
+##### Используемые технологии:
+- Абсолютное и относительное позиционирование элементов;
+- Flex Layout;
+- Grid Layout.
 
-## Run lint
+##### Планы по доработке проекта:
+- Сделать страницу адаптивной.
 
-```sh
-make lint
-```
-https://erratic-size.surge.sh
+
+

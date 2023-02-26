@@ -1,19 +1,23 @@
-# Одностраничный сайт "Когнитивные искажения"
+### One-page website "Cognitive biases"
 
-### https://erratic-size.surge.sh
+#### About
+It is my first training project from Hexlet and my first website.
 
-### Учебный проект от Хекслет
+#### Project functionality
+One-page not an adaptive website. The site introduces the user to the concept of cognitive<br>
+biases in programming. The purpose of the site is to gain skills in the use of technology<br>
+Flex, Grid, absolute and relative positioning.
 
-##### Функциональность:
-Сайт знакомит пользователя с таким понятием, как когнитивные искажения в программировании.
+#### Technology stack
+- HTML5
+- CSS3
+- Flex
+- Grid
 
-##### Используемые технологии:
-- Абсолютное и относительное позиционирование элементов;
-- Flex Layout;
-- Grid Layout.
+#### Deploy
+- $ npm install --global surge
+- $ surge
+- project: ../layout-designer-project-lvl1
 
-##### Планы по доработке проекта:
-- Сделать страницу адаптивной.
-
-
-
+#### Website link
+https://erratic-size.surge.sh
